@@ -1,4 +1,0 @@
-OMS
-===
-
-order management system
