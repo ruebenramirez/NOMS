@@ -1,10 +1,8 @@
 from django.core.urlresolvers import reverse
-from rest_framework import status
 from rest_framework.test import APITestCase
+from rest_framework import status
 
 class APITests(APITestCase):
-
-  # Orders
   def test_get_orders_200(self):
       """
       check for 200 status from orders
